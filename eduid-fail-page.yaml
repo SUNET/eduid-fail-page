@@ -1,0 +1,12 @@
+---
+urlpathtofilepath:
+  "/": "index.html"
+  "/index.html": "index.html"
+  "/favicon.ico": "assets/favicon.ico"
+  "/assets/bootstrap-3.3.7.min.css": "assets/bootstrap-3.3.7.min.css"
+  "/assets/style.css": "assets/style.css"
+  "/assets/eduid-fail-snail.png": "assets/eduid-fail-snail.png"
+  "/assets/favicon.ico": "assets/favicon.ico"
+  "/assets/sprite.png": "assets/sprite.png"
+  "/assets/sunet-vit.png": "assets/sunet-vit.png"
+  "/assets/texture.png": "assets/texture.png"
