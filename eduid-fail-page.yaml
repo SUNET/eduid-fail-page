@@ -10,3 +10,7 @@ urlpathtofilepath:
   "/assets/sprite.png": "assets/sprite.png"
   "/assets/sunet-vit.png": "assets/sunet-vit.png"
   "/assets/texture.png": "assets/texture.png"
+redirect404: true
+jsonresponse:
+  status: Unavailable
+  message: eduID is temporarily unavailable
