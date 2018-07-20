@@ -1,0 +1,5 @@
+docker_name: eduid/eduid-fail-page
+upstream:
+  - simple-fail-page
+slack:
+  room: eduid-builds
