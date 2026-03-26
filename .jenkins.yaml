@@ -1,3 +1,4 @@
+disabled: true
 docker_name: eduid/eduid-fail-page
 upstream:
   - simple-fail-page
