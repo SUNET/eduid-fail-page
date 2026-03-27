@@ -1,17 +1,38 @@
 body,
 .well,
 .container-fluid .container .jumbotron .navbar .navbar-custom {
-    background-color:#bbded9;
-    background-image:url(texture.png);
+  background-color: #fff;
+  /* background-image: url(texture.png);
+  background-image: radial-gradient(ellipse at 350% 100%, #f4f4f4 45%, #fafafa 75%, #ffe7dd 75%);
+  background-image: radial-gradient(ellipse at 350% 100%, #f4f4f4 45%, #ffe7dd 75%, #f4f4f4 75%);*/
+  background-image: radial-gradient(ellipse at -125% 100%, #f4f4f4 74%, #ffe7dd 74%, #ffe7dd 75%, #fff 75%);
+  min-height: 100vh;
 }
 
 .navbar-custom {
-    padding: 20px 35px 0;
+  padding: 20px 35px 0;
 }
 
 .logo {
-    width: 145px;
-    height: 50px;
-    object-fit: none;
-    object-position: 0 0;
+  width: 145px;
+  height: 50px;
+  object-fit: none;
+  object-position: 0 0;
+}
+h1 {
+  text-align: center;
+  font-size: 44px;
+  margin-bottom: 0.75em;
+  font-weight: 200;
+}
+p.message {
+  color: #c23400;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.container {
+  /* filter: drop-shadow(0 -6px 0 #ffe7dd);
+  border-radius: 100% 100% 0 0;
+  background-color: #f4f4f4; */
 }
