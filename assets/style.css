@@ -1,41 +1,62 @@
-body,
-.well,
-.container-fluid .container .jumbotron .navbar .navbar-custom {
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
   background-color: #fff;
-  /* background-image: url(texture.png);
-  background-image: radial-gradient(ellipse at 350% 100%, #f4f4f4 45%, #fafafa 75%, #ffe7dd 75%);
-  background-image: radial-gradient(ellipse at 350% 100%, #f4f4f4 45%, #ffe7dd 75%, #f4f4f4 75%);*/
   background-image: radial-gradient(ellipse at -125% 100%, #f4f4f4 74%, #ffe7dd 74%, #ffe7dd 75%, #fff 75%);
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  font-size: 16px;
+  font-family: sans-serif;
 }
 
-.navbar-custom {
-  padding: 20px 35px 0;
+header .eduid-logo {
+  width: 113px;
+  height: 40px;
+  background-image: url(eduid-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+  display: block;
 }
 
-.logo {
-  width: 145px;
-  height: 50px;
-  object-fit: none;
-  object-position: 0 0;
+main {
+  flex: 1;
+  align-self: center;
 }
+
 h1 {
   text-align: center;
   font-size: 44px;
   margin-bottom: 0.75em;
   font-weight: 200;
 }
-p.message {
+.snail {
+  transform: scaleX(-1);
+  max-width: 100%;
+}
+
+p {
   color: #c23400;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
 }
-.container {
-  /* filter: drop-shadow(0 -6px 0 #ffe7dd);
-  border-radius: 100% 100% 0 0;
-  background-color: #f4f4f4; */
-}
-.snail {
-  transform: scaleX(-1);
+
+footer .sunet-logo {
+  width: 40px;
+  height: 50px;
+  background-image: url(sunet_logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
 }
