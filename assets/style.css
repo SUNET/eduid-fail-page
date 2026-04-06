@@ -14,12 +14,14 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  padding: 1rem;
   font-size: 16px;
   font-family: sans-serif;
 }
 
-header .eduid-logo {
+header {
+  padding: 1rem;
+}
+.eduid-logo {
   width: 113px;
   height: 40px;
   background-image: url(eduid-logo.png);
@@ -32,8 +34,8 @@ header .eduid-logo {
 main {
   flex: 1;
   align-self: center;
+  padding: 1rem;
 }
-
 h1 {
   text-align: center;
   font-size: 44px;
@@ -44,7 +46,6 @@ h1 {
   transform: scaleX(-1);
   max-width: 100%;
 }
-
 p {
   color: #c23400;
   text-align: center;
@@ -52,7 +53,10 @@ p {
   font-weight: 400;
 }
 
-footer .sunet-logo {
+footer {
+  padding: 1rem 1rem 1.9rem;
+}
+.sunet-logo {
   width: 40px;
   height: 50px;
   background-image: url(sunet_logo.svg);
