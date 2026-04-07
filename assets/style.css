@@ -83,6 +83,7 @@ footer {
   }
   .img-wrapper img {
     transform: scaleX(-1) rotate(-20deg);
+    margin-bottom: 3rem;
   }
 }
 
