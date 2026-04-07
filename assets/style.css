@@ -1,17 +1,108 @@
-body,
-.well,
-.container-fluid .container .jumbotron .navbar .navbar-custom {
-    background-color:#bbded9;
-    background-image:url(texture.png);
+/* General styling based on eduid.se 2026 */
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }
 
-.navbar-custom {
-    padding: 20px 35px 0;
+html {
+  font-size: 16px;
+  font-family: "Inter-Regular", Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #fff;
+  background-image: radial-gradient(ellipse at -125% 100%, #f4f4f4 74%, #ffe7dd 74%, #ffe7dd 75%, #fff 75%);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 }
 
-.logo {
-    width: 145px;
-    height: 50px;
-    object-fit: none;
-    object-position: 0 0;
+/* Header */
+header {
+  padding: 1rem;
+}
+.eduid-logo {
+  width: 113px;
+  height: 40px;
+  background: url(eduid-logo.png) no-repeat;
+  background-size: contain;
+  display: block;
+}
+
+/* Content*/
+main {
+  flex: 1;
+  align-self: center;
+  text-align: center;
+  padding: 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 2.75rem;
+  margin-bottom: 0.75em;
+  font-family: "Inter-Light", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+.img-wrapper {
+  margin: 5rem 1rem 3rem;
+}
+.img-wrapper img {
+  transform: scaleX(-1) rotate(0);
+  width: 500px;
+  height: auto;
+  max-width: 100%;
+}
+p {
+  color: #c23400;
+  font-size: 1.25rem;
+}
+
+/* Footer */
+footer {
+  padding: 1rem 1rem 1.9rem;
+}
+.sunet-logo {
+  width: 40px;
+  height: 50px;
+  background: url(sunet_logo.svg) no-repeat;
+  background-size: contain;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.125rem;
+  }
+  .img-wrapper img {
+    transform: scaleX(-1) rotate(-20deg);
+    margin-bottom: 3rem;
+  }
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Inter-Light";
+  src:
+    url("fonts/Inter-Light.ttf") format("truetype"),
+    url("fonts/Inter-Light.woff") format("woff"),
+    url("fonts/Inter-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src:
+    url("fonts/Inter-Regular.ttf") format("truetype"),
+    url("fonts/Inter-Regular.woff") format("woff"),
+    url("fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
