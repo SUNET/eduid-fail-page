@@ -8,7 +8,7 @@
 
 html {
   font-size: 16px;
-  font-family: "Inter-Regular", "Arial", "Helvetica", "sans-serif";
+  font-family: "Inter-Regular", Arial, Helvetica, sans-serif;
 }
 body {
   background-color: #fff;
@@ -44,7 +44,7 @@ main {
 h1 {
   font-size: 2.75rem;
   margin-bottom: 0.75em;
-  font-family: "Inter-Light", "Arial", "Helvetica", "sans-serif";
+  font-family: "Inter-Light", Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 .img-wrapper {
