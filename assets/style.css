@@ -13,7 +13,7 @@ html {
 body {
   color: light-dark(#161616, #f4f4f4);
   background-color: light-dark(#fff, #000);
-  background-image: radial-gradient(ellipse at -125% 100%, #f4f4f4 74%, #ffe7dd 74%, #ffe7dd 75%, #fff 75%);
+  background-image: radial-gradient(ellipse at -100% 100%, #f4f4f4 74%, #ffe7dd 74%, #ffe7dd 75%, #fff 75%);
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -99,7 +99,7 @@ footer a {
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   body {
-    background-image: radial-gradient(ellipse at -125% 100%, #202020 74%, #36251e 74%, #36251e 75%, #000 75%);
+    background-image: radial-gradient(ellipse at -100% 100%, #202020 74%, #36251e 74%, #36251e 75%, #000 75%);
   }
   .eduid-logo {
     background-image: url(eduid-logo-white.svg);
