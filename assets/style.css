@@ -11,7 +11,8 @@ html {
   font-family: "Inter-Regular", Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: #fff;
+  color: light-dark(#161616, #f4f4f4);
+  background-color: light-dark(#fff, #000);
   background-image: radial-gradient(ellipse at -125% 100%, #f4f4f4 74%, #ffe7dd 74%, #ffe7dd 75%, #fff 75%);
   background-repeat: no-repeat;
   display: flex;
@@ -24,6 +25,11 @@ body {
 header {
   padding: 1rem;
 }
+
+header a {
+  display: inline-block;
+}
+
 .eduid-logo {
   width: 113px;
   height: 40px;
@@ -57,13 +63,16 @@ h1 {
   max-width: 100%;
 }
 p {
-  color: #c23400;
+  color: light-dark(#c23400, #ff5965);
   font-size: 1.25rem;
 }
 
 /* Footer */
 footer {
   padding: 1rem 1rem 1.9rem;
+}
+footer a {
+  display: inline-block;
 }
 .sunet-logo {
   width: 40px;
@@ -84,6 +93,19 @@ footer {
   .img-wrapper img {
     transform: scaleX(-1) rotate(-20deg);
     margin-bottom: 3rem;
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: radial-gradient(ellipse at -125% 100%, #202020 74%, #36251e 74%, #36251e 75%, #000 75%);
+  }
+  .eduid-logo {
+    background-image: url(eduid-logo-white.svg);
+  }
+  .sunet-logo {
+    background-image: url(sunet_logo_white.svg);
   }
 }
 
