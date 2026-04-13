@@ -54,13 +54,12 @@ h1 {
   font-weight: normal;
 }
 .img-wrapper {
-  margin: 5rem 1rem 3rem;
-}
-.img-wrapper img {
-  transform: scaleX(-1) rotate(0);
-  width: 500px;
-  height: auto;
-  max-width: 100%;
+  width: 100%;
+  max-width: 504px;
+  height: 252px;
+  margin: 5rem auto 3rem;
+  background: url(fail_snail.png) no-repeat;
+  background-size: contain;
 }
 p {
   color: light-dark(#c23400, #ff5965);
@@ -90,9 +89,9 @@ footer a {
   p {
     font-size: 1.125rem;
   }
-  .img-wrapper img {
-    transform: scaleX(-1) rotate(-20deg);
-    margin-bottom: 3rem;
+  .img-wrapper {
+    transform: rotate(20deg);
+    width: 100%;
   }
 }
 
@@ -106,6 +105,9 @@ footer a {
   }
   .sunet-logo {
     background-image: url(sunet_logo_white.svg);
+  }
+  .img-wrapper {
+    background-image: url(fail_snail_white.png);
   }
 }
 
